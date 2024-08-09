@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    background-color: rgb(113, 111, 111);
+    color:whitesmoke;
+} 
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap:20px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.container div{
+    height: 200px;
+    width: 400px;    
+}
+.bg-1{
+    background-image: url(wayanad.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.bg-1 h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-1 p{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.bg-2{
+    background-image: url(cm.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.bg-2 h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-2 p{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-3{
+    background-image: url(egypt.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-3 h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-3 p{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-4{
+    background-image: url(attacks.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-4 h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-4 p{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-5{
+    background-image: url(trump.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-5 h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-5 p{
+    font-weight:normal;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-6{
+    background-image: url(wind.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-6 h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.bg-6 p{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+/* a :hover{
+    cursor: pointer;
+    color:rgb(211, 15, 241);
+
+} */
